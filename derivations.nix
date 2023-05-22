@@ -20,7 +20,7 @@ let
   #############################################################################
 
   pname = "haskell-language-server";
-  version = "1.6.1.0";
+  version = "1.7.0.0";
   meta = {
     description = ''
       A language server that provides information about Haskell programs to
