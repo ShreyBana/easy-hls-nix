@@ -37,10 +37,11 @@ in rec {
   #############################################################################
   # Platform-Specific Derivations
   #############################################################################
+
   nixosSrc = fetchzip {
     url =
-      "https://github.com/haskell/haskell-language-server/releases/download/${version}/haskell-language-server-Linux-${version}.tar.gz";
-    sha256 = "04ldsqac227wddsdw3pf9jinmcafaw1rdq0f0kb5b0010p84m7wj";
+      "https://github.com/haskell/haskell-language-server/releases/download/${version}/haskell-language-server-${version}-src.tar.gz";
+    sha256 = "sha256-k7hLNQmua4KbJ6Fb2gGF+Wc67U++cvt5+imsVFt9z2s=";
     stripRoot = false;
   };
 
