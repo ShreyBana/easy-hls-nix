@@ -40,7 +40,7 @@ in rec {
   nixosSrc = fetchzip {
     url =
       "https://github.com/haskell/haskell-language-server/releases/download/${version}/haskell-language-server-Linux-${version}.tar.gz";
-    sha256 = "05ldsqac227wddsdw3pf9jinmcafaw1rdq0f0kb5b0010p84m7wj";
+    sha256 = "04ldsqac227wddsdw3pf9jinmcafaw1rdq0f0kb5b0010p84m7wj";
     stripRoot = false;
   };
 
